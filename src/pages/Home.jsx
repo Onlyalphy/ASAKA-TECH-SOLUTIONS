@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "../utils";
 import { Shield, Code, Zap, ArrowRight, CheckCircle, Star } from "lucide-react";
+import { BlocksIcon } from "lucide-react";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
               </span>{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-magenta-600 to-pink-600">
                 Smart.
-              </span>
+              </span>{" "}
             </h1>
             
             <p className="text-xl lg:text-2xl text-gray-600 mb-12 leading-relaxed font-light">
@@ -89,9 +90,9 @@ export default function Home() {
                 color: "green"
               },
               {
-                icon: Code,
-                title: "Custom Web Development",
-                description: "Scalable web apps tailored to your mission, built with modern tech stacks.",
+                icon: BlocksIcon,
+                title: "Asset Tokenization",
+                description: "Asset digitization for more liquidity and security, built with modern tech stacks.",
                 color: "purple"
               }
             ].map((service, index) => (
@@ -125,8 +126,8 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             {[
               {
-                title: "Wind Site Selection Tool",
-                description: "A geospatial app that streamlines renewable energy planning with advanced blockchain integration.",
+                title: "Land Registry App",
+                description: "A real-estate app that redefines land ownership and acquisition.",
                 icon: Zap,
                 gradient: "from-green-500 to-emerald-600"
               },

@@ -1,6 +1,7 @@
 import React from "react";
 import { Compass, Shield, Code, Users, CheckCircle } from "lucide-react";
 import AlphonceImage from "../assets/Alphonce.jpg";
+import { Blocks } from "lucide-react";
 
 export default function About() {
   const expertise = [
@@ -15,9 +16,9 @@ export default function About() {
       desc: "Precision code reviews for security and reliability"
     },
     {
-      icon: Code,
-      title: "Custom Web Development",
-      desc: "Scalable platforms tailored to your goals"
+      icon: Blocks,
+      title: "Asset Tokenization",
+      desc: "Digitization of assets for more liquidity and security"
     }
   ];
 
